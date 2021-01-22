@@ -130,6 +130,10 @@ img {
   margin-bottom: 15px;
 }
 
+.cases img:hover {
+  opacity: 0.7;
+}
+
 /* Flex items*/
 
 .flex-items {
