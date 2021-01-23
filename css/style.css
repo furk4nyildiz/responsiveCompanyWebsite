@@ -50,6 +50,7 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  z-index: 2;
 }
 
 .navbar a {
@@ -108,8 +109,8 @@ img {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.hero * {
-  z-index: 10;
+.hero .content * {
+  z-index: 1;
 }
 
 /* Icons */
@@ -131,7 +132,7 @@ img {
 }
 
 .cases img:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* Flex items*/
